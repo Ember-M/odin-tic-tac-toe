@@ -14,7 +14,7 @@ body{
 
 .container{
     display: grid;
-    grid-template-rows: 12.5vh 7.5vh 80vh;
+    grid-template-rows: 12.5vh 10vh 5vh 70vh;
 }
 .header,.player-turn,.board, .winning-message{
     text-align: center;
@@ -48,13 +48,21 @@ body{
     text-decoration: underline;
     background-color: black;
 }
-.startGame { 
-    grid-row: 2/3;
+.start-game{ 
+    grid-row: 3/4;
+    width: 40%;
+    background-color: black;
+    color: white;
+    border-radius: 16px;
+    font-size: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 .board{
     width: 100%;
     height: 100%;
-    grid-row: 3/4;
+    grid-row: 4/5;
     display: grid;
     justify-content: center;
     align-content: center;
